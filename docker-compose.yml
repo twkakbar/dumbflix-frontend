@@ -1,0 +1,14 @@
+version: '3.7'
+services: 
+ frontend:
+   container_name: alvin-fe
+   image: dumbways/dumbflix-fe:1.0
+   stdin_open: true
+   ports:
+    - 3333:3000
+ Backend:
+   container_name: alvin-be
+   image: dumbways/dumbflix-be:1.0
+   stdin_open: true
+   ports:
+    - 5000:5000
