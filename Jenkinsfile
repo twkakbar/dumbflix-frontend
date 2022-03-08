@@ -1,7 +1,7 @@
-def secret = 'Server'
+def secret = 'Github'
 def server = 'ubuntu@10.200.253.211'
-def directory = 'dumbways-cicd'
-def branch = 'main'
+def directory = 'dumbflix-frontend'
+def branch = 'master'
 
 pipeline{
     agent any
