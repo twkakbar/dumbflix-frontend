@@ -3,4 +3,4 @@ How to deploy dumbflix-frontend :
 - Change url for dumbflix-backend in src/config/api.js
 - Deploy dumbflix-frontend with port 3000
 
-Test CICD 113
+Test CICD 22
